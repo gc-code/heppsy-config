@@ -3,11 +3,21 @@ development:
   database: team38_dev
   host: localhost
   min_messages: warning
-  username:
+  username: <username>
+  password: '<password_hash>'
 
 test:
   adapter: postgresql
   database: team38_test
   host: localhost
   min_messages: warning
-  username:
+  username: <username>
+  password: '<password_hash>'
+
+production:
+  adapter: postgresql
+  database: team38_prod
+  host: localhost
+  min_messages: warning
+  username: <username>
+  password: '<password_hash>'
